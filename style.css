@@ -1,0 +1,249 @@
+body {
+    background-image: linear-gradient(110deg, #F2C744, #2256F2);
+}
+
+.contact-me {
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: greenyellow;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 90vh;
+    left: 75vw;
+    z-index: 1000;
+    padding: 0px 50px;
+    cursor: pointer;
+}
+
+.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    width: 100%;
+    height: 40px;
+}
+
+.mainhero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    font-size: 90px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+.fair {
+    font-weight: 400;
+    text-transform: italic;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+}
+
+.videohero {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.vid {
+    height: 100vh;
+}
+
+.vid::before {
+    content: '';
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    background: rgba(255, 0, 255, 0.2);
+}
+
+.slogan {
+    width: 100%;
+    max-height: 50%;
+    font-size: 50px;
+    text-align: center;
+    line-height: 50vh;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 200;
+    font-family: 'Jost', sans-serif;
+}
+
+.slogan>q>i>b {
+    font-size: 100px;
+}
+
+.bg-1 {
+    height: 50vh;
+    width: 100%;
+    background-image: url('pexels-ben-mack-6775234.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 25px;
+    line-height: 50vh;
+    text-align: center;
+    color: white;
+    /* border-radius: 20px;
+    border: 1px solid transparent; */
+    font-family: 'Jost', sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+.bg-2 {
+    height: 50vh;
+    width: 100%;
+    background-image: url('pexels-freestocksorg-361754.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 25px;
+    line-height: 50vh;
+    text-align: center;
+    color: white;
+    /* border-radius: 20px;
+    border: 1px solid transparent; */
+    font-family: 'Jost', sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+.bg-3 {
+    height: 50vh;
+    width: 100%;
+    background-image: url('pexels-nataliya-vaitkevich-5128220.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 25px;
+    line-height: 50vh;
+    text-align: center;
+    color: white;
+    /* border-radius: 20px;
+    border: 1px solid transparent; */
+    font-family: 'Jost', sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+.bg-4 {
+    height: 50vh;
+    width: 100vw;
+    background-image: url('pexels-maksim-goncharenok-5486205.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 25px;
+    line-height: 50vh;
+    text-align: center;
+    color: white;
+    /* border-radius: 20px;
+    border: 1px solid transparent; */
+    font-family: 'Jost', sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+.block-over {
+    overflow: hidden;
+}
+
+.img-grow {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.img-grow:hover {
+    /* transform: rotate3d(1, 1, 2, 20deg); */
+    transform: scale(1.2);
+    /* background-color: #5678df8e; */
+    transition: 1s all;
+}
+
+@media only screen and (max-width: 925px) {
+    body {
+        background-color: lightblue;
+    }
+    .slogan {
+        font-size: 10px;
+    }
+}
+
+
+/* .random {
+    .cal-1 {
+        height: 100vh;
+        width: 100%;
+        background-image: url('pexels-freestocksorg-361754.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 50px;
+        line-height: 100vh;
+        text-align: center;
+        color: white;
+        font-family: 'Jost', sans-serif;
+        text-shadow: 1px 1px 1px black;
+    }
+    .cal-2 {
+        height: 100vh;
+        width: 100%;
+        background-image: url('pexels-nataliya-vaitkevich-5128220.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 50px;
+        line-height: 100vh;
+        text-align: center;
+        color: white;
+        font-family: 'Jost', sans-serif;
+        text-shadow: 1px 1px 1px black;
+    }
+    .cal-3 {
+        height: 100vh;
+        width: 100%;
+        background-image: url('pexels-shiny-diamond-3762663.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 50px;
+        line-height: 100vh;
+        text-align: center;
+        color: white;
+        font-family: 'Jost', sans-serif;
+        text-shadow: 1px 1px 1px black;
+    }
+    .cal-4 {
+        height: 100vh;
+        width: 100%;
+        background-image: url('pexels-ben-mack-6775234.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 50px;
+        line-height: 100vh;
+        text-align: center;
+        color: white;
+        font-family: 'Jost', sans-serif;
+        text-shadow: 1px 1px 1px black;
+    }
+} */
